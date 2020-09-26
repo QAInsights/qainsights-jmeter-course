@@ -15,7 +15,7 @@ steps:
     actions:
       - type: respond
         issue: 1
-        with: questions/01.md
+        with: 01.md
       - type: createIssue
         title: TG
-        body: issues/01.md
+        body: 01issue.md
