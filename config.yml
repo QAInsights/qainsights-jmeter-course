@@ -13,4 +13,9 @@ steps:
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
-      - type: closeIssue
+      - type: respond
+        issue: '1'
+        with: questions/01.md
+      - type: createIssue
+        title: TG
+        body: issues/01.md
