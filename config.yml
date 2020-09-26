@@ -13,9 +13,6 @@ steps:
     event: issues.closed
     link: '{{ repoUrl }}/issues/1'
     actions:
-      - type: respond
-        issue: 1
-        with: 01.md
       - type: createIssue
         title: TG
         body: 01issue.md
