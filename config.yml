@@ -13,7 +13,7 @@ steps:
     actions:
       - type: createIssue
         title: A new issue
-        body: 01issue.md
+        body: "erere"
     description: welcome
     event: issues.closed
     link: '{{ repoUrl }}/issues/1'
