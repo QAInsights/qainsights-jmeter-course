@@ -3,6 +3,7 @@ description: qainsights-jmeter
 template:
   repo: qainsights-jmeter-template
   name: qainsights-jmeter
+  description: testimg
 before:
   - type: createIssue
     title: Welcome!
